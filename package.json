@@ -1,0 +1,44 @@
+{
+  "name": "gulp-githead-rev",
+  "version": "0.0.1",
+  "description": "Static asset revisioning using latest git commit for the repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shobhitsharma/gulp-githead-rev.git"
+  },
+  "keywords": [
+    "gulp-plugin",
+    "gulp-rev",
+    "gulp-git",
+    "assets",
+    "revision",
+    "cache",
+    "manifest"
+  ],
+  "author": "Shobhit Sharma <hi@shobh.it> (https://shobh.it/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shobhitsharma/gulp-githead-rev/issues"
+  },
+  "homepage": "https://github.com/shobhitsharma/gulp-githead-rev#readme",
+  "typings": "index",
+  "dependencies": {
+    "modify-filename": "^1.1.0",
+    "plugin-error": "^1.0.1",
+    "through2": "^2.0.3",
+    "vinyl": "^2.2.0",
+    "vinyl-file": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-util": "^3.0.8",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
