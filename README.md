@@ -4,7 +4,7 @@
 This gulp plugin introduces generating file hashes based on repository's latest git using [git revision history](https://git-scm.com/docs/git-rev-list) commands. By default it takes shorter form of latest commit hash.
 
 ### Why?
-The idea behind this is to eliminate possible bug which module bundlers like webpack, require.js, browserify generates during minification leading different filesize even though the content is same; such situation can affect files hosted around multiple servers with round-robin patterns which server wrong file hash generated differently.
+The idea behind this is to eliminate possible bug which module bundlers like webpack, require.js, browserify generates during minification leading different filesize even though the content is same; such situation can affect files hosted around multiple servers with round-robin patterns which may serve wrong file based of varying hashes.
 
 This is basically a fork over [gulp-rev@8.1.1](https://github.com/sindresorhus/gulp-rev) plugin which differs in separate hash generation.
 
